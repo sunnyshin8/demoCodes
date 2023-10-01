@@ -1,7 +1,7 @@
 from changes import write
 import os
 
-numberOfDays= 4
+numberOfDays= 31
 
 # #change
 # for i in range(numberOfDays):
@@ -12,7 +12,7 @@ numberOfDays= 4
 
 
 #git commit
-for i in range(1, 4):
+for i in range(1, 32):
     write(f"Day {i+1} of {numberOfDays} days of code\n")
     print("change made to file.txt", i)
     os.system("git add .")
