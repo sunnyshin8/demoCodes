@@ -1,7 +1,7 @@
 from changes import write
 import os
 
-numberOfDays= 9
+numberOfDays= 6
 
 # #change
 # for i in range(numberOfDays):
@@ -17,7 +17,7 @@ for i in range(1, numberOfDays+1):
     print("change made to file.txt", i)
     os.system("git add .")
     print("git add .", i)
-    os.system(f"git commit --date=\"2023-11-17 11:55:43\" -m \"initial commit\"")
+    os.system(f"git commit --date=\"2023-11-6 11:55:43\" -m \"initial commit\"")
     print("git commit", i)
 
 #git push
