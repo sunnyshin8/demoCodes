@@ -18,7 +18,7 @@ for i in range(1, numberOfDays+1):
     os.system("git add .")
     print("git add .", i)
     
-    os.system(f"git commit --date=\"2024-04-03  b 11:55:43\" -m \"initial commit\"")
+    os.system(f"git commit --date=\"2024-04-04  b 11:55:43\" -m \"initial commit\"")
     print("git commit", i)
 
 #git push
