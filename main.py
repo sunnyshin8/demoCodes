@@ -1,5 +1,6 @@
 from changes import write
 import os
+import datetime
 
 numberOfDays= 3
 
@@ -9,7 +10,7 @@ numberOfDays= 3
 
 # #git add .
 # os.system("git add .")
-
+target_date = datetime.datetime(2024, 8, 22, 11, 55, 43)
 
 #git commit
 for i in range(1, numberOfDays+1):
