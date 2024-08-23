@@ -1,7 +1,7 @@
 from changes import write
 import os
 
-numberOfDays= 7
+numberOfDays= 3
 
 # #change
 # for i in range(numberOfDays):
